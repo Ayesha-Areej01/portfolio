@@ -41,7 +41,7 @@ export default function About() {
         <span className={`${orbit.className} text-xl text-blue-600`}>Full Stack Web-Developer</span><br/>
         </div>
         <div className='p-6 mt-0 md:text-center md:justify-center'>
-        <Button className="hover:bg-blue-600 inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0">
+        <Button className="hover:bg-blue-600 inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base ">
             <Link href={"https://www.linkedin.com/in/ayesha-aay-0a6a46289/"}
             className="">
             Hire Me
@@ -61,7 +61,7 @@ export default function About() {
             </div>
         <div>
         </div>
-        <div className='flex flex-wrap mt-20 items-center justify-center gap-4 '>
+        <div className='flex flex-wrap items-center justify-center gap-4 '>
           <div className=" duration-300">
           <CardWithForm
           title={'1+'}
@@ -74,7 +74,7 @@ export default function About() {
           </div>
           <div className=''>
           <CardWithForm 
-          title={'6+'} 
+          title={'4+'} 
           description={'Certificates and Awards'} />
           </div>
           <div className='mb-4'>
